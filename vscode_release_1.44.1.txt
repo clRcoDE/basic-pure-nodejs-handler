@@ -1,5 +1,0 @@
-learn python containers and data science models
-
-https://code.visualstudio.com/docs/containers/quickstart-python
-
-https://code.visualstudio.com/docs/python/data-science-tutorial
