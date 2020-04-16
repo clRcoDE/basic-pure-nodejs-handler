@@ -1,0 +1,22 @@
+{
+  "name": "node-file-server-renderer",
+  "version": "0.0.0",
+  "description": "parses url and renders html file inside nodejs",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "nodemon --watch src/server --exec yarn serve",
+    "serve": "yarn build && node dist/index.js",
+    "runnode": "node dist/index.js",
+    "build": "babel src/server -d dist",
+    "bs": "yarn build && yarn runnode"
+  },
+  "keywords": [],
+  "author": "@danial_omidi [https://github.com/clrcode]",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "nodemon": "^2.0.3"
+  }
+}
